@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: tahoma;
+    background: #f1f5f9;
+    color: #0f172a;
+}
+header {
+       background: #0f172a;
+       color: white;
+       padding: 20px;
+       text-align: center;
+}
+nav a{
+    color: wheat;
+    text-decoration: none;
+    margin: 15px;
+}
+.hero{
+    background: #2b4375;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1{
+    font-size: 35px;
+}
+section{
+    padding: 50px 20px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards div{
+    background: white;
+    padding:30px ;
+    width: 200px;
+    border-radius: 15px;
+}
+footer{
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#fields {
+    display: none;
+    background: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.dropdown{position: relative;display: inline-block}
+.menu{display: none;position: absolute;right: 0;top: 100%; background: white;padding: 10px;width: 180px}
+.dropdown:hover .menu{display: block}
+.dropdown:focus-within .menu{display: block;}
+.menu p, .menu b {color: #222}
+
