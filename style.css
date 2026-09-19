@@ -61,5 +61,17 @@ footer{
 .menu{display: none;position: absolute;right: 0;top: 100%; background: white;padding: 10px;width: 180px}
 .dropdown:hover .menu{display: block}
 .dropdown:focus-within .menu{display: block;}
-.menu p, .menu b {color: #222}
+.menu p, .menu b {color: #222} 
+
+body { 
+    background: url("books.PNG") center/cover fixed;
+}
+body::before {
+    content:"";
+    position: fixed;
+    inset:0;
+    background: rgba(241, 245 , 249 , 0.7);
+    z-index:-1;
+}
+
 
