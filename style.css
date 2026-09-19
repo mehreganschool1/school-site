@@ -63,3 +63,6 @@ footer{
 .dropdown:focus-within .menu{display: block;}
 .menu p, .menu b {color: #222} 
 
+#fields {
+    display: none !important;
+}
