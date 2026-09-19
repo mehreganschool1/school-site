@@ -63,27 +63,3 @@ footer{
 .dropdown:focus-within .menu{display: block;}
 .menu p, .menu b {color: #222} 
 
-body { 
-    background: url("books.PNG") center/cover fixed;
-}
-body::before {
-    content:"";
-    position: fixed;
-    inset:0;
-    background: rgba(241, 245 , 249 , 0.7);
-    z-index:-1;
-}
-body {
-    background:url("books.PNG") center/cover fixed;
-}
-header{
-    background:rgba(15 , 23 , 42 , 0.85 );
-}
-.hero{
-    background:rgba(43 , 67 , 117 , 0.85 );
-}
-footer { 
-    background:rgba(15, 23 , 42 , 0.85 );
-}
-
-
