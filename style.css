@@ -66,3 +66,8 @@ footer{
 #fields {
     display: none !important;
 }
+.photos img {
+    width:300px;
+    height:200px;
+    opject-fit:cover;
+}
