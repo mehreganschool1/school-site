@@ -71,3 +71,7 @@ footer{
     height:200px;
     opject-fit:cover;
 }
+.photos img {
+    display:block;
+    margin:20px;
+}
